@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Nastyuhina App</string>
     <string name="user_name">Vasil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_fragment">Nice!\n Now we can get acquainted.\n p.s. it's my first fragment</string>
 </resources>

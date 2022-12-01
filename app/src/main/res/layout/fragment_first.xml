@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B41F1E20"
+    tools:context=".FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:background="@color/maincolorfragment"
+        android:layout_gravity="center"
+        android:alpha="0.3"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:text="@string/first_fragment"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="10pt"
+        android:layout_marginTop="-30dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30pt"
+        android:width="30pt"
+        android:height="35pt"
+        android:background="@drawable/button_circle"
+        android:gravity="center"
+        android:text="GO NEXT"
+        android:textSize="8pt" />
+</FrameLayout>
